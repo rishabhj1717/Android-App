@@ -1,0 +1,240 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.myapplication.AboutUs"
+
+
+
+    android:paddingTop="55dp"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradien"
+        android:paddingTop="55dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.CardView
+        android:id="@+id/android_card_view_example"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+
+        card_view:cardBackgroundColor="@android:color/transparent"
+       >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:background="#fff"
+
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/cardview_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="18dp"
+                
+                android:background="@drawable/mahak" />
+
+            <TextView
+                android:id="@+id/cardview_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_title"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/cardview_image"
+
+                android:text="TE-1 Roll.No: 3151"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cardview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/cardview_image"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingBottom="5dp"
+                android:layout_marginTop="14dp"
+                android:text="Mahak Bansal"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/android_card_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        card_view:cardBackgroundColor="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:background="#fff"
+
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/cardview_image1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/lava" />
+
+            <TextView
+                android:id="@+id/cardview_desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_title1"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/cardview_image1"
+                android:text="TE-1 Roll.No: 3150"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cardview_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/cardview_image1"
+                android:paddingBottom="5dp"
+                android:text="Lavanya Deshmukh"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="14dp"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/android_card_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        card_view:cardBackgroundColor="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:background="#fff"
+
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/cardview_image2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="18dp"
+
+                android:background="@drawable/rishabh" />
+
+            <TextView
+                android:id="@+id/cardview_desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_title2"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/cardview_image2"
+                android:text="TE-1 Roll.No: 3160"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cardview_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/cardview_image2"
+                android:paddingBottom="5dp"
+                android:text="Rishabh Jain"
+                android:textSize="24sp"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/android_card_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        card_view:cardBackgroundColor="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:background="#fff"
+
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/cardview_image3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="18dp"
+
+                android:background="@drawable/rakshu" />
+
+            <TextView
+                android:id="@+id/cardview_desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_title3"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/cardview_image3"
+                android:text="TE-1 Roll.No: 3159"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cardview_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/cardview_image3"
+                android:paddingBottom="5dp"
+                android:text="Rakshandha Rajput"
+                android:textSize="20sp"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
